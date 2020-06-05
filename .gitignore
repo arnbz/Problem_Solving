@@ -1,0 +1,10 @@
+.idea
+.vscode
+node_modules
+.exercism
+.eslintrc
+babel*
+package*
+README.md
+*.spec.js
+.npmrc
