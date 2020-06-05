@@ -8,3 +8,4 @@ package*
 README.md
 *.spec.js
 .npmrc
+test_bits.js
