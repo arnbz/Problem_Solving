@@ -7,5 +7,6 @@ babel*
 package*
 README.md
 *.spec.js
+*.test.js
 .npmrc
 test_bits.js
