@@ -33,14 +33,9 @@ let Stack = (function () {
     return stackArray.length;
   };
 
-  Stack.prototype.view = function () {
+  Stack.prototype.print = function () {
     let stackArray = items.get(this);
-    return stackArray.toString();
-  };
-
-  Stack.prototype.testGet = function () {
-    let stackArray = items.get(this);
-    return stackArray;
+    console.log(stackArray);
   };
 
   return Stack;
