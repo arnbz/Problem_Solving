@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 let Stack = require('./stack');
 let app = require('./numeric-conversions');
 
