@@ -3,9 +3,9 @@
 // convenience to get you started writing code faster.
 //
 
-export const decodedValue = (resistorColor) => {
-  let colorCode1 = COLORS.indexOf(resistorColor[0]);
-  let colorCode2 = COLORS.indexOf(resistorColor[1]);
+export const decodedValue = ([color1, color2]) => {
+  let colorCode1 = COLORS.indexOf(color1);
+  let colorCode2 = COLORS.indexOf(color2);
   return colorCode1 * 10 + colorCode2;
 };
 
