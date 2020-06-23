@@ -132,11 +132,7 @@ const LinkedList = (function () {
   };
 
   LinkedList.prototype.isEmpty = function () {
-    // loading properties
-    let property = prop.get(this);
-    let { length } = property;
-
-    return length === 0;
+    return this.size() === 0;
   };
 
   LinkedList.prototype.toString = function () {
